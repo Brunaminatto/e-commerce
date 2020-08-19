@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../components/Header'
 import About from '../components/About'
 import Produtos from '../components/Produtos'
-import Localization from '../components/Localization'
+import Contact from '../components/Contact'
 
 import '../assets/styles/global.css'
 import './styles.css'
@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <About /> 
       <Produtos />
-      <Localization />
+      <Contact />
     </div>
   )
 }
