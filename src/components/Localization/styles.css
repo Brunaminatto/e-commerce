@@ -1,0 +1,7 @@
+.localization-container {
+    font: 700 2.0rem Archivo;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

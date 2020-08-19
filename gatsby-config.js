@@ -5,6 +5,21 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `I like Google fonts`
+  },
+  plugins: [
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Archivo`,
+            variants: [`400`, `700`]
+          }
+        ],
+        display: 'swap'
+      }
+    }
+  ]
 }
