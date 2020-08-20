@@ -9,7 +9,7 @@ function About() {
         <div id="about">
             <div id="about-container" className="container">
                 <h1>Somos uma empresa de ....</h1>
-                <div className="logo-container"><img className="logo-img" src={logo} /></div>
+                {/* <div className="logo-container"><img className="logo-img" src={logo} /></div> */}
             </div>
         </div>
     )
