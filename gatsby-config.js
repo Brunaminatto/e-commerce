@@ -10,6 +10,18 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Bulgar`,
+        short_name: `Bulgar`,
+        start_url: `/`,
+        background_color: `#000`,
+        theme_color: `#ffffff`,
+        display: `minimal-ui`,
+        icon: `src/assets/images/logo.png`
+      },
+    },
+    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
